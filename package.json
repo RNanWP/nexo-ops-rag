@@ -1,0 +1,17 @@
+{
+  "name": "nexo-ops-rag",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Assistente de decisao operacional para logistica com RAG, citacoes e avaliacao reproduzivel.",
+  "type": "module",
+  "scripts": {
+    "evaluate": "node src/cli/evaluate.ts",
+    "ask": "node --env-file-if-exists=.env src/cli/ask.ts",
+    "start": "node --env-file-if-exists=.env src/server.ts",
+    "test": "node --test tests/*.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "license": "MIT"
+}
