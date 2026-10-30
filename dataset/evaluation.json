@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q01",
+    "question": "O saldo do sistema esta diferente da quantidade fisica. Posso ajustar imediatamente?",
+    "relevantDocumentIds": ["divergencia_inventario"]
+  },
+  {
+    "id": "q02",
+    "question": "Quem deve fazer a segunda contagem de uma divergencia de estoque?",
+    "relevantDocumentIds": ["divergencia_inventario"]
+  },
+  {
+    "id": "q03",
+    "question": "Encontrei uma embalagem vazando no estoque. Qual e a primeira acao?",
+    "relevantDocumentIds": ["produto_avariado", "seguranca_operacional"]
+  },
+  {
+    "id": "q04",
+    "question": "Quais fotos e dados preciso registrar para um item danificado?",
+    "relevantDocumentIds": ["produto_avariado"]
+  },
+  {
+    "id": "q05",
+    "question": "O coletor perdeu conexao durante uma movimentacao. Posso anotar em um papel?",
+    "relevantDocumentIds": ["falha_coletor"]
+  },
+  {
+    "id": "q06",
+    "question": "Varios coletores pararam ao mesmo tempo. Como devo escalar?",
+    "relevantDocumentIds": ["falha_coletor"]
+  },
+  {
+    "id": "q07",
+    "question": "Uma rota pode perder o horario de corte. Como priorizar os pedidos?",
+    "relevantDocumentIds": ["atraso_expedicao"]
+  },
+  {
+    "id": "q08",
+    "question": "Que informacoes devem ser comunicadas quando a expedicao atrasar?",
+    "relevantDocumentIds": ["atraso_expedicao"]
+  },
+  {
+    "id": "q09",
+    "question": "O sistema mostra estoque, mas nao achei o produto no endereco indicado.",
+    "relevantDocumentIds": ["produto_nao_localizado"]
+  },
+  {
+    "id": "q10",
+    "question": "Posso trocar por outro item quando o produto do pedido nao for encontrado?",
+    "relevantDocumentIds": ["produto_nao_localizado"]
+  },
+  {
+    "id": "q11",
+    "question": "Ha uma carga instavel bloqueando a rota de emergencia. Devo continuar a operacao?",
+    "relevantDocumentIds": ["seguranca_operacional"]
+  },
+  {
+    "id": "q12",
+    "question": "Quem pode liberar o retorno da operacao depois de um risco de seguranca?",
+    "relevantDocumentIds": ["seguranca_operacional"]
+  }
+]
